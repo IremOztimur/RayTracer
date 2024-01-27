@@ -30,6 +30,7 @@ class RenderEngine:
 				x = x0 + i * x_step
 				ray = Ray(camera, Point(x, y) -  camera)
 				pixels.set_pixel(i, j, self.ray_tracer(ray, scene))
+			print("{:3.0f}%".format(float(j) / float(height) * 100), end="\r")
 		return pixels
 
 	def ray_tracer(self, ray, scene):
