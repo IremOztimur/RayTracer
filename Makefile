@@ -1,5 +1,6 @@
 clean:
 	@rm -rf __pycache__
+	@rm -rf srcs/__pycache__
 	@rm -rf *.ppm
 	@echo "\033[91mCleaned up __pycache__\033[0m"
 	@echo "\033[91mCleaned up *.ppm\033[0m"
