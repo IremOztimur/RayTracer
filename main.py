@@ -1,4 +1,3 @@
-"""Puray - a Pure Python Raytracer by İrem Öztimur, 2024"""
 from color import Color
 from vector import Vector
 from point import Point
