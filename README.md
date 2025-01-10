@@ -23,15 +23,27 @@ To run RayTracer, you need to have Python installed on your system.
     cd RayTracer
     ```
 
-2. Install the required dependencies:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 ### Usage
 
-To render a scene, simply run the `main.py` script:
+To render a scene, you can use the provided Makefile commands:
 
-```sh
-python main.py
+- To clean up the project directory:
+
+    ```sh
+    make clean
+    ```
+
+- To run the ray tracer:
+
+    ```sh
+    make run
+    ```
+
+- To open the generated image files:
+
+    ```sh
+    make open
+    ```
+
+## Ray Tracing Algorithm Overview
+![rt_notes](https://github.com/user-attachments/assets/76224e2f-c026-48c1-a8c0-68acd203010a)
